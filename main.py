@@ -28,6 +28,7 @@ def main():
     print("in main")
     sc = selenium_contllorer()
     sc.site_open()
+    time.sleep(2)
     sc.end()
 
 if __name__ == "__main__":
